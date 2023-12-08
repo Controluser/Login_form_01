@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --pink: #EE5684;
+  --google: #D41C1C;
+  --fb: #415C9E;
+  --in: #2161B9;
+  --gray: #494949;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url('assets/bg.jpg');
+  background-size: cover;
+  background-position: center; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 320px;
+  background: rgba(255, 255, 255, 1);
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.wrapper h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(73, 73, 73, 1);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.wrapper .input_field {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+
+
+.wrapper .input_field label {
+  font-size: 16px;
+  margin-bottom: 2px; 
+}
+
+.wrapper .input_field input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid rgba(73, 73, 73, 1);
+  padding: 6px 40px 6px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: transparent;
+  position: relative;
+}
+
+.wrapper .input_field i {
+  font-size: 18px;
+  color: var(--gray);
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper .input_field span {
+  position: relative;
+}
+
+.wrapper .remember input {
+  accent-color: var(--pink);
+  margin: -20px 5px 0px 0px;
+  top: 3px;
+}
+
+
+
+.wrapper .remember {
+  margin: -13px 0 15px 0;
+  font-size: 13px;
+  color: rgba(73, 73, 73, 1);
+  
+}
+
+.wrapper .btn {
+  background: var(--pink);
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+  
+  
+}
+
+.wrapper .forgot {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.wrapper .forgot a {
+  color: rgba(73, 73, 73, 1);
+  text-decoration: none;
+  font-weight: 400;
+  
+}
+
+.wrapper .div-section .horizontal-line {
+  background: rgba(73, 73, 73, 1);
+  height: 1px;
+  width: 100%;
+}
+
+.wrapper .div-section {
+  margin-top: 30px;
+  position: relative;
+}
+
+.wrapper .div-section span {
+  text-transform: uppercase;
+  background: #fff;
+  color: rgba(73, 73, 73, 1);
+  font-size: 18px;
+  font-weight: 300;
+  border: 1px solid rgba(73, 73, 73, 1);
+  padding: 2px 3px;
+  border-radius: 5px;
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wrapper .social-media-links {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.wrapper .social-media-links .link i {
+  font-size: 22px;
+}
+
+.wrapper .social-media-links .link {
+  border: 1.5px solid #0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.wrapper .social-media-links .google {
+  border-color: var(--google);
+  color: var(--google);
+}
+
+.wrapper .social-media-links .fb {
+  border-color: var(--fb);
+  color: var(--fb);
+}
+
+.wrapper .social-media-links .linkedin {
+  border-color: var(--in);
+  color: var(--in);
+}
+
+.wrapper .reg_link {
+  margin-top: 25px;
+  text-align: center;
+  
+}
+
+.wrapper .reg_link a, p {
+  font-size: 14.5px;
+  color: rgba(73, 73, 73, 1);
+  
+  
+}
+
+.wrapper .reg_link a {
+  font-weight: 500;
+}
+
